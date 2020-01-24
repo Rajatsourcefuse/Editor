@@ -1,0 +1,35 @@
+{
+  "name": "sample_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build -d public index.html",
+    "deploy": "now --prod",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-static-files-copy": "^2.2.1"
+  },
+  "dependencies": {
+    "ace-builds": "^1.4.8",
+    "milsymbol": "^2.0.0",
+    "redom": "^3.25.0",
+    "tailwindcss": "^1.1.4"
+  },
+  "staticFiles": {
+    "staticPath": [
+      {
+        "staticPath": "node_modules/ace-builds/src-noconflict",
+        "staticOutDir": "ace-builds"
+      }
+    ]
+  }
+}

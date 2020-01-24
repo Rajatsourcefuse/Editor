@@ -1,0 +1,134 @@
+
+#editor {
+    width: auto;
+    position: relative;
+    margin-top: 0;
+    font-size: 25px;
+    border-bottom: solid 2px #25282c;
+}
+
+.run{
+    position: absolute;
+    margin-top:1vh ;
+    background-color: black;
+    margin-left: 46px;
+}
+.run:hover{
+    background-color:#25282c ;
+}
+
+.question{
+    border-left: solid 46px #25282c; 
+    color: white;
+    background-color: #1D1F21;
+}
+
+
+.addProblem{
+    background:#1D1F21;
+    border-left: solid 46px #25282c; 
+    padding: 2vh;
+}
+
+.tab_list{
+    border-left: solid 46px #25282c; 
+    color: gray;
+}
+
+.tabs_style{
+    background: #25282c ;
+    border-right: solid 2px #1D1F21;
+    box-sizing: border-box;
+}
+
+
+
+.tabs_style2{
+    background:#1D1F21;
+    border-right: solid 2px #1D1F21;
+    color: white;
+    box-sizing: border-box;
+}
+
+.first_section{
+    background-color: #1D1F21;
+    height: 100vh;
+
+}
+
+.second_section{
+    background-color: #1D1F21;
+    color: white;
+    border-left:solid 1px #25282c ;
+    height: 100vh;  
+}
+.output{
+    background-color: #1D1F21;
+    color: white;
+    height: 29.8vh;
+    resize: vertical;
+}
+
+.outputValue{
+    font-size: 2vh;
+}
+
+.popupWindow{
+    position: absolute;
+    background: #1D1F21;
+    border: solid 2px #25282c;
+    padding: 5vh;
+
+}
+.tabbs{
+    display: flex;
+    align-items: center;
+}
+
+.addButton{
+    padding:0 0.5vh 0 0.5vh ;
+    background-color: green;
+    color: red;
+    font-weight: bold;
+    height: 2.5vh;
+    border-radius: 0.5vh;
+
+}
+
+.inputlist{
+    display: flex;
+    max-width: 60vw;
+    margin-left: 4vw;
+    overflow-x:auto ;
+    margin-right: 4vh;
+}
+.arrayinput{
+    width: 6vw;
+    margin-right: 2vw;
+}
+::-webkit-scrollbar {
+    width: 20px;
+    height: 4px;
+  }
+
+.testField{
+    margin-bottom: 1vh ;
+    display: flex;
+}
+
+.textLabel{
+    color: white;
+    font-size: 2vh;
+}
+.tabData{
+    margin-left: 40%;
+    position: relative;
+}
+.closeButton{
+    margin-left: ;
+    position: relative;;
+}
+
+.problemTitle{
+    color: white;
+}
